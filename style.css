@@ -81,6 +81,13 @@ body {
     color: #0077b5 !important;
 }
 
+.about-div{
+    line-height: 40px !important;
+}
+.about-div h2{
+    width: 100% !important;
+    line-height: 50px;
+}
 
 /* for vertical-line */
 
