@@ -12,16 +12,16 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="app.js"></script>
 </head>
 
-<body>
+<body onload="disableClick()">
 
 
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
         <div class="row">
             <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid">
                         <a class="navbar-brand text-primary" href="#"> &lt;/QA&gt; </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,16 +33,16 @@
                             <ul class="navbar-nav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="#about">About</a>
+                                        <a class="nav-link text-white" href="#about">About</a>
                                     </li>
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="#services">Services</a>
+                                        <a class="nav-link text-white" href="#services">Services</a>
                                     </li>
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="#projects">Projects</a>
+                                        <a class="nav-link text-white" href="#projects">Projects</a>
                                     </li>
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="#contact">Contact</a>
+                                        <a class="nav-link text-white" href="#contact">Contact</a>
                                     </li>
                                 </ul>
                         </div>
@@ -111,23 +111,16 @@
                 <div class="about-div">
                     <h2 class="text-danger">I am Qambar Ali</h2>
                     <h2 class="text-success">Junior Web and Mobile Application Developer having Expertise in</h2>
-                    <ul>
-                        <li class="text-secondary">HTML5</li>
-                        <li class="text-secondary">CSS3</li>
-                        <li class="text-secondary">Bootstrap5</li>
-                        <li class="text-secondary">JavaScript</li>
-                        <li class="text-secondary">JQuery</li>
-                        <li class="text-secondary">React</li>
-                        <li class="text-secondary">React Native</li>
-                        <li class="text-secondary">Firebase</li>
-                        <li class="text-secondary">Nodejs</li>
-                    </ul>
-                    <h2 class="text-primary">Education</h2>
-                    <ul>
-                        <li class="text-secondary">BS Computer Science : Department of Computer Science - Karachi University</li>
-                        <li class="text-secondary">Intermediate : Army Public College</li>
-                        <li class="text-secondary">Matric : Fazaia Inter College</li>
-                    </ul>
+                    <h5 class="expertise">
+                        <span>HTML5</span> &nbsp; |  &nbsp;
+                        <span>CSS3</span>  &nbsp; |  &nbsp;
+                        <span>Bootstrap5</span>  &nbsp; |  &nbsp; 
+                        <span>JavaScript</span>  &nbsp; |  &nbsp; 
+                        <span>JQuery</span>  &nbsp; |  &nbsp; 
+                        <span>React</span>  &nbsp; |  &nbsp;  
+                        <span>Firebase</span>  &nbsp; |  &nbsp; 
+                        <span>Nodejs</span> 
+                    </h5>
                 </div>
             </div>
         </div>
@@ -212,7 +205,7 @@
                         <a href="https://github.com/QambarAli1/app_with_localstorage" target="_blank">
                             <i class="bi bi-github text-dark"></i>
                         </a>
-                        <a href="https://qambarali1.github.io/app_with_localstorage/" target="_blank">
+                        <a href="https://qambarali1.github.io/appWithLoaclStorage/" target="_blank">
                             <i class="bi bi-globe text-dark"></i>
                         </a>
                     </div>
@@ -268,11 +261,11 @@
 
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row border bg-success text-white ">
+    <div class="container-fluid bg-dark">
+        <div class="row border bg-dark text-white ">
             <div class="col-12 d-flex justify-content-center p-4">
                 <i class="fa fa-copyright" aria-hidden="true"></i>
-                <span>QambarAli1</span>
+                <span>QambarAli1 2021</span>
             </div>
         </div>
     </div>

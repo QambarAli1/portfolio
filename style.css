@@ -1,5 +1,8 @@
 body {
     font-family: 'Aclonica' !important;
+    cursor: pointer;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .navbar-brand {
@@ -22,12 +25,13 @@ body {
 }
 
 .nav-link:hover {
-    color: rgb(235, 11, 11) !important;
+    color: blanchedalmond !important;
     font-weight: bold;
+    border-bottom: 2px solid blanchedalmond !important;
 }
 
 .nav-link:active {
-    color: rgb(241, 12, 12) !important;
+    color: rgb(241, 218, 12) !important;
     font-weight: bold;
 }
 
@@ -89,8 +93,16 @@ body {
     width: 100% !important;
     line-height: 50px;
 }
-.about-div ul li:hover{
-    color: #0b0c0c !important;
+
+.expertise{
+    width: 80%;
+    line-height: 50px;
+    color: rgb(73, 71, 71);
+}
+
+.expertise span:hover{
+    color: black;
+    font-size: 23px;
 }
 
 /* for vertical-line */
@@ -116,13 +128,15 @@ body {
     padding: 15px;
     background-color: rgb(37, 35, 35);
     border-radius: 20px;
-    color: rgb(185, 169, 169);
+    color: rgb(167, 160, 160);
     cursor: pointer;
 }
 
 .services:hover{
     background-color: black;
     color: whitesmoke !important;
+    width: 340px !important;
+    height: 270px !important;
 }
 
 .services i {
