@@ -25,9 +25,9 @@ body {
 }
 
 .nav-link:hover {
-    color: blanchedalmond !important;
+    color: rgb(219, 33, 33) !important;
     font-weight: bold;
-    border-bottom: 2px solid blanchedalmond !important;
+    border-bottom: 2px solid rgb(219, 33, 33) !important;
 }
 
 .nav-link:active {
@@ -90,6 +90,7 @@ body {
 .skills i{
     font-size: 80px;
     padding: 20px;
+    color: gray;
 }
 
 
