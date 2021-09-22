@@ -128,8 +128,6 @@ body {
 .services:hover{
     background-color: black;
     color: whitesmoke !important;
-    width: 340px !important;
-    height: 270px !important;
 }
 
 .services i {
