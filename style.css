@@ -159,6 +159,9 @@ body {
 .projects-div div{
     margin: 20px;
 }
+.card img{
+    height: 200px;
+}
 .card:hover{
     border: 10px solid green !important;
     color: green;
