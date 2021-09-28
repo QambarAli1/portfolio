@@ -163,7 +163,7 @@ body {
     height: 200px;
 }
 .card:hover{
-    border: 10px solid green !important;
+    border: 20px solid rgb(51, 59, 51) !important;
     color: green;
 }
 .card-body a i{
@@ -217,4 +217,11 @@ body {
 .fa-copyright{
     font-size: 20px !important;
     cursor: pointer !important;
+}
+
+.fa-html5{
+    color: #e34c26 !important;
+}
+.fa-css3-alt{
+    color: #264de4 !important;
 }
