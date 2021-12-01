@@ -163,7 +163,7 @@ body {
     height: 200px;
 }
 .card:hover{
-    border: 20px solid rgb(51, 59, 51) !important;
+    border: 2px solid rgb(170, 212, 170) !important;
     color: green;
 }
 .card-body a i{
